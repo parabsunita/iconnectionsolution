@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        File Type Validation while Uploading it using JavaScript
+    </title>
+
+    <link rel="stylesheet" href="CSS\style.css">
+    <script src="Javascript\script.js"></script>
+</head>
+
+<body>
+
+    <!-- Image preview -->
+    <!--image container-->
+    <div id="imagePreview"></div>
+    <!--picture choose button-->
+    <input type="file" id="file" onchange="return fileValidation()" title="  " />
+    <input id="choosebtn" type="button" value="Choose Picture" onclick="document.getElementById('file').click();" />
+
+</body>
+
+</html>
